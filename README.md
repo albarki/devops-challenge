@@ -14,7 +14,9 @@
 ```
 * create an example rest api:
 ```
-   spring init --build maven --groupId com.albarki.examples \
+   $ spring init --build maven --groupId com.albarki.examples \
    --version 1.0 --java-version 1.8 --dependencies web \
    --name hola-springboot hola-springboot
+   $ mvn spring-boot:run
 ```
+* 
