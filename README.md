@@ -10,4 +10,11 @@
    export SPRING_HOME=/home/albarki/spring-2.0.2.RELEASE/
    export PATH=$SPRING_HOME/bin:$PATH
    source /etc/profile
+   spring --version
+```
+* create an example rest api:
+```
+   spring init --build maven --groupId com.albarki.examples \
+   --version 1.0 --java-version 1.8 --dependencies web \
+   --name hola-springboot hola-springboot
 ```
